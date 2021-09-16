@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+#todo{
+    height: 500px;
+}
+header{
+    background-color: #22577A;
+    text-align: center;
+}
+header a{
+     text-decoration: none;
+     color:darkkhaki;
+     display: block;
+     font-size: 2Srem;
+}
+header a:hover{
+    text-decoration: none;
+    color:rgba(255,255,255,.4);
+}
+section{
+    background-color: #57CC99;
+    font-size: 1.2rem;
+}
+#lateral{
+    background-color: #22577A;
+    text-align: center;
+    padding: 50px 100px;
+}
+footer{
+    background-color: #22577A;
+    color:darkkhaki;
+    text-align: center;
+    padding: 20px 0;
+}
+.contenedor{
+    width: 99%;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    display: none;
+    border: solid 1px black;
+}
+#resultado{
+    transition: all .4s ease-in-out;
+}
+.res{
+    width:99% ;
+    line-height: 25px;
+    border: solid 1 px black;
+    padding: 10px;
+    margin: 10 px;
+    
+}
+#label_1{
+    color: white;
+    font-size: 1rem ;
+}
+#label_2{
+    color: white;
+    font-size: 1.8rem ;
+    text-align: center;
+}
+#bloque1{
+    float: center;
+}
+
+#imagen1{
+    height:5rem;
+    width:5rem;
+    margin: 10px;
+    float: left;
+}
+#imagen2{
+    height:5rem;
+    width:5rem;
+    margin: 10px;
+    float: left;
+}
+#imagen3{
+    height:5rem;
+    width:5rem;
+    margin: 10px;
+    float: left;
+}
+#imagen4{
+    height:5rem;
+    width:5rem;
+    margin: 10px;
+    float: left;
+}
+#imagen5{
+    height:5rem;
+    width:5rem;
+    margin: 10px;
+    float: left;
+}
+#imagen6{
+    height:5rem;
+    width:5rem;
+    margin: 10px;
+    float: left;
+}
+#imagen7{
+    height:5rem;
+    width:5rem;
+    margin: 10px;
+    float: left;
+}
+#imagen8{
+    height:5rem;
+    width:5rem;
+    margin: 10px;
+    float: left;
+}
+#imagen9{
+    height:5rem;
+    width:5rem;
+    margin: 10px;
+    float: left;
+}

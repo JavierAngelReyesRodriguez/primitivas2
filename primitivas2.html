@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea de Primitivas+DOM</title>
+    <link rel="stylesheet" href="css/primitivas.css" type="text/css"/>
+    <!--Links de bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+</head>
+<body>
+    <header>
+        <h1><a href="#">¡Primitivas 2 con Javascript!</a></h1>
+    </header>
+    <section class="row container-fluid" id="todo">
+        <aside id="lateral" class="col-sm-3">
+
+
+            <a href="index.html" class="btn btn-default" color=white  id="label_1">Presiona.Para ver el codigo anterior</a>
+
+
+            <label id="label_1">¿Que tanto sabes de Pokemon? </label>
+           
+
+            <input id="btn_sig1" type="button" value="Siguiente" class="btn btn-warning" onClick="mostrar1()"/>
+            <input id="btn_sig2" style="display:none" type="button" value="Siguiente" class="btn btn-warning" onClick="mostrar2()"/>
+            <input id="btn_sig3" style="display:none" type="button" value="Siguiente" class="btn btn-warning" onClick="mostrar3()"/>
+            <input id="btn_sig4" style="display:none" type="button" value="Siguiente" class="btn btn-warning" onClick="mostrar4()"/>
+            <input id="btn_sig5" style="display:none" type="button" value="Finalizar" class="btn btn-warning" onClick="mostrar5()"/>
+            <input id="btn_sig6" style="display:none" type="button" value="Realizar de nuevo" class="btn btn-warning" onClick="mostrar()"/>
+        </aside>  
+        <section id="principal" class="col-sm-9">
+
+        <article id="bloque1"  >
+            <label id="label_2">¿Cuantos pokemon existen actualmente (2021)? </label><blockquote> 
+            <select id="pregunta1">
+                <option value="1053 Pokemon">1053 Pokemon</option>
+                <option value="725 Pokemon">725 Pokemon</option>
+                <option value="898 Pokemon">898 Pokemon</option>
+                
+            </select>
+        </article>
+        <article id="bloque2"  style="display:none">
+            <label id="label_2">¿El tipo Fuego derrota a los tipos...? </label><blockquote> 
+            <select id="pregunta2">
+
+                <option value="Bicho, Dragon, Normal y Tierra">Bicho, Dragon, Normal y Tierra</option>
+                <option value="Acero, Hielo, Planta y Bicho">Acero, Hielo, Planta y Bicho</option>
+                <option value="Hielo, Tierra, Normal y Fantasma">Hielo, Tierra, Normal y Fantasma</option>
+                
+            </select>
+        </article>
+
+        <article id="bloque3" class="contenedor1" style="display:none">
+            <label id="label_2">¿Cuales son los miembros del Team Rocket, con los que pelea Ash? </label><blockquote> 
+            <select id="pregunta3">
+
+                <option value="Jessie, James y Meowth">Jessie, James y Meowth</option>
+                <option value="Misty, Brook y Pikachu">Misty, Brook y Pikachu</option>
+                <option value="Lance y Cynthia">Lance y Cynthia</option>
+                
+            </select>
+        </article>
+        <article id="bloque4"  style="display:none">
+            <label id="label_2">¿Cual de estos nombres NO es de un Pokemon? </label><blockquote> 
+            <select id="pregunta4">
+
+                <option value="Garurumon">Garurumon</option>
+                <option value="Dunsparce">Dunsparce</option>
+                <option value="Felarigart">Felarigart</option>
+                
+            </select>
+        </article>
+
+        <article id="bloque5" class="contenedor1" style="display:none">
+            <label id="label_2">¿En que temporada del anime evoluciona el Pikachu de Ash? </label><blockquote> 
+            <select id="pregunta5">
+
+                <option value="En temporada 1">En temporada 1</option>
+                <option value="Nunca evoluciona">Nunca evoluciona</option>
+                <option value="En la ultima temporada">En la ultima temporada</option>
+                
+            </select>
+        </article>
+
+
+        <article id="bloquefinal" class="contenedor1" style="display:none">
+            <label id="label_1">¿Cuantos pokemon existen actualmente (2021)? </label><br> 
+            <label id="respuesta1"></label><br><br>
+            <label id="label_1">¿El tipo Fuego derrota a los tipos...? </label><br> 
+            <label id="respuesta2"></label><br><br>
+            <label id="label_1">¿Cuales son los miembros del Team Rocket, con los que pelea Ash?</label><br> 
+            <label id="respuesta3"></label><br><br>
+            <label id="label_1">¿Cual de estos nombres NO es de un Pokemon?  </label><br> 
+            <label id="respuesta4"></label><br><br>
+            <label id="label_1">¿En que temporada del anime evoluciona el Pikachu de Ash? </label><br> 
+            <label id="respuesta5"></label>
+        </article>
+    </section>
+
+    </section>
+    <script src="js/primitivas2.js"></script>
+<footer>
+   <h6>Ideas Creativas -@anahitinocot</h6>  
+   <h6>Temas técnicos-@aha</h6> 
+   <h6>Realizado Por: Javier Angel Reyes Rodriguez</h6> 
+</footer>
+</body>
+</html>
